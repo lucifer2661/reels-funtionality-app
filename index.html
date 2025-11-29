@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reels App</title>
+    <link 
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" 
+      rel="stylesheet"
+    />
+</head>
+<body>
+
+<main>
+    <section>
+        <!-- EMPTY: JS will insert all reels here -->
+        <div class="all-reels"></div>
+    </section>
+</main>
+
+<!-- STEP 1: Load reels array BEFORE script.js -->
+<script>
+const reels = [
+  {
+    username: "aditya_thakur",
+    likeCount: 248,
+    isLiked: false,
+    commentCount: 32,
+    caption: "Chasing dreams. One step at a time.",
+    video: "reels/video1.mp4", 
+    userProfile: "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f",
+    shareCount: 12,
+    isFollowed: false
+  },
+  {
+    username: "fitness_guru",
+    likeCount: 1032,
+    isLiked: true,
+    commentCount: 89,
+    caption: "No excuses. Just results. 💪",
+    video: "reels/video2.mp4",
+    userProfile: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde",
+    shareCount: 55,
+    isFollowed: true
+  },
+  {
+    username: "city_vibes",
+    likeCount: 560,
+    isLiked: false,
+    commentCount: 41,
+    caption: "Mumbai nights hit different ✨",
+    video: "reels/video3.mp4",
+    userProfile: "https://images.unsplash.com/photo-1502685104226-ee32379fefbe",
+    shareCount: 18,
+    isFollowed: false
+  },
+  {
+    username: "travel_with_me",
+    likeCount: 1820,
+    isLiked: true,
+    commentCount: 140,
+    caption: "Sunset over the Himalayas 🌄",
+    video: "reels/video4.mp4",
+    userProfile: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
+    shareCount: 72,
+    isFollowed: true
+  },
+  {
+    username: "foodie_lover",
+    likeCount: 720,
+    isLiked: false,
+    commentCount: 56,
+    caption: "Pasta > everything else 🍝",
+    video: "reels/video5.mp4",
+    userProfile: "https://images.unsplash.com/photo-1529626455594-4ff0802cbf7e",
+    shareCount: 21,
+    isFollowed: false
+  },
+  {
+    username: "coder_life",
+    likeCount: 900,
+    isLiked: true,
+    commentCount: 68,
+    caption: "Eat. Sleep. Code. Repeat.",
+    video: "reels/video6.mp4",
+    userProfile: "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+    shareCount: 44,
+    isFollowed: true
+  },
+  {
+    username: "nature_snapper",
+    likeCount: 1320,
+    isLiked: false,
+    commentCount: 105,
+    caption: "Feel the breeze. Hear the silence 🍃",
+    video: "reels/video7.mp4",
+    userProfile: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
+    shareCount: 50,
+    isFollowed: false
+  },
+  {
+    username: "dance_reels",
+    likeCount: 4100,
+    isLiked: true,
+    commentCount: 389,
+    caption: "New choreography 🔥",
+    video: "reels/video8.mp4",
+    userProfile: "https://images.unsplash.com/photo-1529626455594-4ff0892cfa7e",
+    shareCount: 119,
+    isFollowed: true
+  },
+  {
+    username: "pet_world",
+    likeCount: 2200,
+    isLiked: false,
+    commentCount: 244,
+    caption: "Cutest dog on the internet 🐶",
+    video: "reels/video9.mp4",
+    userProfile: "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+    shareCount: 95,
+    isFollowed: false
+  },
+  {
+    username: "tech_reviews",
+    likeCount: 780,
+    isLiked: false,
+    commentCount: 64,
+    caption: "This gadget is insane! 🤯",
+    video: "reels/video10.mp4",
+    userProfile: "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f9",
+    shareCount: 36,
+    isFollowed: false
+  }
+];
+</script>
+
+<!-- STEP 2: Now load your script AFTER reels exists -->
+<script src="script.js"></script>
+
+</body>
+</html>
